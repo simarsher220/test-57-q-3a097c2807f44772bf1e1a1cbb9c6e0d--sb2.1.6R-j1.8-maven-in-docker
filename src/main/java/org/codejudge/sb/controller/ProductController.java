@@ -16,12 +16,6 @@ public class ProductController {
 
 	@Autowired
     ProductService service;
-	
-	@GetMapping("/")
-	@ResponseBody
-	public String test() throws IOException {
-		return "Hello Docker world!";
-	}
 
 	@PostMapping("/api/products")
 	@ResponseBody
